@@ -1,8 +1,8 @@
 {% assign icons = site.theme_settings.icons %}
-{% if icons.email %}
+{% if icons.github %}
 <li>
-  <a href="mailto:{{ icons.email }}">
-    <i class="fas fa-envelope"></i>
+  <a href="https://github.com/{{ icons.github }}">
+    <i class="fab fa-github"></i>
   </a>
 </li>
 {% endif %}
@@ -11,14 +11,6 @@
 <li>
   <a href="{{ icons.linkedin }}">
     <i class="fab fa-linkedin"></i>
-  </a>
-</li>
-{% endif %}
-
-{% if icons.github %}
-<li>
-  <a href="https://github.com/{{ icons.github }}">
-    <i class="fab fa-github"></i>
   </a>
 </li>
 {% endif %}
@@ -75,6 +67,14 @@
 <li>
   <a href="http://instagram.com/{{ icons.instagram }}">
     <i class="fab fa-instagram"></i>
+  </a>
+</li>
+{% endif %}
+
+{% if icons.email %}
+<li>
+  <a href="mailto:{{ icons.email }}">
+    <i class="fas fa-envelope"></i>
   </a>
 </li>
 {% endif %}

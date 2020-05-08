@@ -1,37 +1,52 @@
 # Site Settings
 baseurl: ""
-url : "https://naye0ng.github.io"
+url : "https://nada1587.github.io"
 
 # Blog Settings
 theme_settings :
-  title : Grape Theme
-  favicon : assets/favicon.ico
+  title : KIMSOHYUN | Tu_torials
+  favicon : assets/img/favicon_sh.png
 
   # Profile Settings
   profile :
     image : assets/img/smile.png
-    username : Nayeong Kim
-    description : creator of Grape-Theme! Grape-Theme is my first jekyll theme and you can customize this theme easily.
+    username : Sohyun Kim
+    description : Publisher_
     experience :
-      - start : 2017-05-03
-        end : 2018-05-06
-        experience : company name, title
+      - start : 2018-07-02
+        end : 2020-05-08
+        experience : WeMakePrice, 웹퍼블리셔 근무
+      - start : 2015-10-20
+        end : 2018-03-31
+        experience : (주)이아이랩, 웹퍼블리셔 근무
+      - start : 2015-01-00
+        end : 2015-06-00
+        experience : 방송정보국제교육원 멀티미디어 콘텐츠 제작, 웹퍼블리셔과정 교육수료
+      - start : 2013-05-00
+        end : 2014-05-00
+        experience : KOICA 베트남사무소, 해외인턴
+      - start : 2010-09-00
+        end : 2011-08-00
+        experience : Capital Language School Academic Semester, 영국 어학연수
+      - start : 2009-09-00
+        end : 2010-02-00
+        experience : La Consolacion College Manila SIA Program, 필리핀 교환학생
     skills : 
       - skill : HTML5 & CSS
         value : 85  # Percent value
         
   # Icons
   icons :
-    email:  # Full email address, e.g. "sample@google.com"
+    email: "nada1587@naver.com"
     linkedin:  # Full URL 
-    github: naye0ng
+    github: nada1587
     gitlab: 
     bitbucket: 
     google_plus:
     twitter:
     youtube:
     facebook:
-    instagram:
+    instagram: tu_bbitung
 
   # Disqus
   disqus_shortname :

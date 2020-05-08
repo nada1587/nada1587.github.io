@@ -1,22 +1,11 @@
 ---
 layout: post
-title: Sample Post with Markdown
-subtitle : How markdown is displayed as html
-tags: [Sample Post, Demo]
-author: Nayeong Kim
-comments : True
+title: 블로그 markdown 작성 룰
+subtitle : 글 작성을 위한 Grape-Theme markdown 작성법
+tags: [save]
+author: Sohyun Kim
+comments : False
 ---
-
-This post show result from awesome Markdown techniques like jekyll. 
-`Jekyll` supports to transform your plain text into static websites and blogs. 
-
-you can easy to change style in `_utility.html` and a sample of the formatting follows.
-
-<br>
-
-이 포스팅은 놀라운 Markdown 기술들로 만들어진 결과물입니다.
-
-`_utility.html`에서 스타일을 변경할 수 있으며, 서식 샘플은 아래와 같습니다.
 
 <br>
 
@@ -93,7 +82,7 @@ Try using `.width-30`, `.width-40`, `.width-50`, `.width-60`, `.width-70` and `.
 ![sample image]({{ site.baseurl }}/assets/img/koreaSunset.jpg){: .width-80}
 <br>
 
-<h2>5. table</h2>
+<h2>6. table</h2>
 {% highlight html %}
 | Header 1  | Header 2 | Header 3 |
 | :------- | :-------: | -------: |
@@ -104,3 +93,30 @@ Try using `.width-30`, `.width-40`, `.width-50`, `.width-60`, `.width-70` and `.
 | :------- | :-------: | -------: |
 | Content 1 | Content 2 | Content 3 |
 | Content 1 | Content 2 | Content 3 |
+
+<br>
+
+<h2>7. Code </h2>
+You can add highlighting for code in `highlight.scss`.
+
+{% highlight python %}
+# test function
+def test :
+    print('hello world!')
+{% endhighlight %}
+
+<br>
+
+<h2>8. Quotes</h2>
+{% highlight html %}
+> Hello World, This is quotes!
+{% endhighlight %}
+> Hello World, This is quotes!
+
+<br>
+
+<h2>9. `Backtick`</h2>
+{% highlight html %}
+`Grape-Theme`
+{% endhighlight %}
+`Grape-Theme`

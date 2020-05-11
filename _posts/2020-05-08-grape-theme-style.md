@@ -60,9 +60,9 @@ comments : False
 
 <h2>4. hyperlink</h2>
 {% highlight html %}
-[naye0ng's blog](https://naye0ng.github.io)
+[sohyun's blog](https://nada1587.github.io)
 {% endhighlight %}
-[naye0ng's blog](https://naye0ng.github.io)
+[sohyun's blog](https://nada1587.github.io)
 
 <br>
 

@@ -2,7 +2,7 @@
 layout: post
 title: 자바스크립트 기초 정리 - 01. 변수와 상수
 subtitle : var, let, const
-tags: [study javascript es6]
+tags: [javascript]
 author: Sohyun Kim
 comments : False
 ---

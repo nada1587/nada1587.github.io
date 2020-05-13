@@ -46,10 +46,10 @@ comments : False
 | categories  | tags |
 | :------- | :-------: |
 | daily | story |
-| javascript | study |
-| Vue.js | study |
-| ES6 | study |
-| etc | study |
+| javascript | javascript |
+| Vue.js | Vue |
+| ES6 | ES6 |
+| etc | dev, html, css, etc |
 | useful infomation | save |
 
 <br>

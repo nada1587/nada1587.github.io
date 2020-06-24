@@ -9,9 +9,9 @@ theme_settings :
 
   # Profile Settings
   profile :
-    image : assets/img/smile.png
+    image : assets/img/favicon_sh.png
     username : Sohyun Kim
-    description : Publisher_
+    description : Publisher_<br>I am trying to become a front-end developer.
     experience :
       - start : 2018-07-02
         end : 2020-05-08

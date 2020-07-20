@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 자바스크립트 기초 정리 - 04. Todo 토이프로젝트를 개발하며!
+title: 자바스크립트 기초 정리 - 05. Todo 토이프로젝트를 개발하며!
 subtitle : arrow function, 유사배열, 이벤트위임 등 
 tags: [javascript]
 author: Sohyun Kim
